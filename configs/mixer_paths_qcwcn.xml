@@ -854,13 +854,8 @@
         <ctl name="HPHL DAC Switch" value="1" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-<<<<<<< HEAD
-        <ctl name="RX1 Digital Volume" value="60" />
-        <ctl name="RX2 Digital Volume" value="60" />
-=======
         <ctl name="RX1 Digital Volume" value="64" />
         <ctl name="RX2 Digital Volume" value="64" />
->>>>>>> c66c3994fcbe92bad66c88e50e6740c84f54442d
         <ctl name="COMP1 Switch" value="1" />
     </path>
 
