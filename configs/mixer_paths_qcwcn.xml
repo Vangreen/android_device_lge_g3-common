@@ -804,11 +804,7 @@
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
-<<<<<<< HEAD
-        <ctl name="RX1 Digital Volume" value="66" />
-=======
         <ctl name="RX1 Digital Volume" value="68" />
->>>>>>> c66c3994fcbe92bad66c88e50e6740c84f54442d
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="DAC1 Switch" value="1" />
     </path>
