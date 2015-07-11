@@ -148,3 +148,5 @@ BOARD_SEPOLICY_UNION += \
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+-include vendor/bliss/config/viper.mk
