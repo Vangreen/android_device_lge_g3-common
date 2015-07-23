@@ -316,7 +316,8 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Wether doze feature is enabled by default in settings. -->
-    <bool name="config_doze_enabled_by_default">true</bool>
+    <bool name="config_doze_enabled_by_default">false</bool>
      <!-- Hardware keys enable/disable -->
-    <bool name="config_hwKeysPref">false</bool>   
+    <add-resource type="bool" name="config_hwKeysPref"></add-resource>
+        <bool name="config_hwKeysPref">false</bool>   
 </resources>
