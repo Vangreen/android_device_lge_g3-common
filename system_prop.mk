@@ -62,11 +62,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.add_power_save=1 \
     persist.radio.apm_sim_not_pwdn=1 \
     ro.telephony.ril_class=LgeLteRIL
-
-PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=false \
     ro.use_data_netmgrd=true
-
+    
 # Recovery
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cwm.forbid_format=/boot,/firmware,/mpt,/persist,/persist-lg,/sns
@@ -78,8 +76,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qualcomm.sns.libsensor1=e
 
 #Wifi Hack
-net.tethering.noprovisioning=true
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
 
 # USB
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true
+
+# Other
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.strictmode.disable=true \
+    ro.telephony.call_ring.delay=0 \
+    ring.delay=0
