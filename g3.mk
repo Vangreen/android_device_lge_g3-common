@@ -97,8 +97,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8974 \
-    SnapdragonCamera
+    camera.msm8974
 
 # Display
 PRODUCT_PACKAGES += \
