@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
     init.baseband.sh \
     ueventd.g3.rc
 
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # RIL symbols
 PRODUCT_PACKAGES += \
     liblge
