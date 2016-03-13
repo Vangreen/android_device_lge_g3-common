@@ -1653,5 +1653,4 @@
         <ctl name="SLIM_0_RX SampleRate" value="KHZ_16" />
         <path name="speaker" />
     </path>
-
 </mixer>
