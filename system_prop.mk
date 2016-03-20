@@ -71,4 +71,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.strictmode.disable=true \
     ro.telephony.call_ring.delay=0 \
-    ring.delay=0
+    ring.delay=0 \
+    gsm.proximity.enable=true
