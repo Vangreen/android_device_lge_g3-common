@@ -205,3 +205,7 @@ PRODUCT_PACKAGES += \
 # Skip HDCP
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1
+
+# Dalvik-Hack
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
