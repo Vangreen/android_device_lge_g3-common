@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusDoze
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
