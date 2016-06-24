@@ -75,3 +75,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.delay=0 \
     ring.delay=0 \
     gsm.proximity.enable=true
+
+# Assertive Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.qcom.ad=1 \
+    ro.qcom.ad.calib.data=/system/etc/ad_calib.cfg

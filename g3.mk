@@ -214,3 +214,7 @@ PRODUCT_COPY_FILES += \
 # Dalvik-Hack
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
+
+# Assertive Display
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/prebuilt/etc/ad_calib.cfg:system/etc/ad_calib.cfg
