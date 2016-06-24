@@ -80,3 +80,27 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.ad=1 \
     ro.qcom.ad.calib.data=/system/etc/ad_calib.cfg
+
+# Tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+    profiler.force_disable_err_rpt=1 \
+    profiler.force_disable_ulog=1 \
+    ro.config.nocheckin=1 \
+    ro.kernel.android.checkjni=0 \
+    ro.kernel.checkjni=0
+
+# Network
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.dns1=8.8.8.8 \
+    net.dns2=8.8.4.4 \
+    net.ppp0.dns1=8.8.8.8 \
+    net.ppp0.dns2=8.8.4.4
+
+# Hardware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801 \
+    ro.device.cpu_info=Quad-Core 2.5 GHz Krait 400 \
+    ro.device.gpu=Adreno 330 \
+    ro.device.rear_cam=13 MP 4128x3096 \
+    ro.device.front_cam=2.1 MP 1600x1200 \
+    ro.device.screen_res=5.5 1440x2560 pixels 538 ppi
