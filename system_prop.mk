@@ -95,12 +95,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.dns2=8.8.4.4 \
     net.ppp0.dns1=8.8.8.8 \
     net.ppp0.dns2=8.8.4.4
-
-# Hardware
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801 \
-    ro.device.cpu_info=Quad-Core 2.5 GHz Krait 400 \
-    ro.device.gpu=Adreno 330 \
-    ro.device.rear_cam=13 MP 4128x3096 \
-    ro.device.front_cam=2.1 MP 1600x1200 \
-    ro.device.screen_res=5.5 1440x2560 pixels 538 ppi
