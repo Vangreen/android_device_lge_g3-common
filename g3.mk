@@ -218,3 +218,7 @@ PRODUCT_COPY_FILES += \
 # Assertive Display
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/prebuilt/etc/ad_calib.cfg:system/etc/ad_calib.cfg
+
+# Glove mode
+PRODUCT_PACKAGES += \
+    DeviceSettings
