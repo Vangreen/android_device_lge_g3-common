@@ -219,6 +219,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/prebuilt/etc/ad_calib.cfg:system/etc/ad_calib.cfg
 
+# Boot Cleaner
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/prebuilt/etc/init.d/81clean:system/etc/init.d/81clean
+
 # Glove mode
 PRODUCT_PACKAGES += \
     GloveMode
