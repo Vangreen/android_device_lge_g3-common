@@ -221,4 +221,4 @@ PRODUCT_COPY_FILES += \
 
 # Glove mode
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    GloveMode
