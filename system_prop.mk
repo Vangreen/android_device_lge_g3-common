@@ -34,6 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.add_power_save=1 \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.telephony.oosisdc=false \
     ril.subscription.types=NV,RUIM \
