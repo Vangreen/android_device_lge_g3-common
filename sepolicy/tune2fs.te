@@ -5,5 +5,4 @@ type tune2fs_exec, exec_type, file_type;
 init_daemon_domain(tune2fs)
 
 allow tune2fs userdata_block_device:blk_file { rw_file_perms ioctl };
-# ToDo: file context - /proc/swaps
-allow tune2fs proc:file r_file_perms;
+allow tune2fs proc_swaps:file r_file_perms;
