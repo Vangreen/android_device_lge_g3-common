@@ -14,24 +14,35 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.doze;
+package com.cyanogenmod.settings.device;
 
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.util.Log;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "OneplusDoze";
+    private static final String TAG = "SettingsDevice";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        if (Utils.isDozeEnabled(context) && Utils.sensorsEnabled(context)) {
-            if (DEBUG) Log.d(TAG, "Starting service");
-            Utils.startService(context);
-        }
+        if (DEBUG) Log.d(TAG, "Starting service");
+        context.startService(new Intent(context, SensorsDozeService.class));
+        context.startService(new Intent(context, GloveModeService.class));
     }
 
+    private void enableComponent(Context context, String component) {
+        ComponentName name = new ComponentName(context, component);
+        PackageManager pm = context.getPackageManager();
+        if (pm.getComponentEnabledSetting(name)
+                == PackageManager.COMPONENT_ENABLED_STATE_DISABLED) {
+            pm.setComponentEnabledSetting(name,
+                    PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                    PackageManager.DONT_KILL_APP);
+        }
+    }
 }

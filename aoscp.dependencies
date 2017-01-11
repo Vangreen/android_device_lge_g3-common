@@ -1,0 +1,8 @@
+[
+  {
+    "repository":  "packages_resources_Translato",
+    "target_path": "packages/resources/Translato",
+    "remote":      "aoscp",
+    "branch":      "n7.1"
+  }
+]
