@@ -109,3 +109,6 @@ BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+ # FM
+ BOARD_HAVE_QCOM_FM := true
