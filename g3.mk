@@ -87,14 +87,6 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-<<<<<<< HEAD
-    android.hardware.bluetooth@1.0-impl \
-    libbt-vendor \
-=======
->>>>>>> parent of 888b058... g3: Build HIDL Hals
-=======
->>>>>>> parent of 888b058... g3: Build HIDL Hals
     hwaddrs
 
 # Camera
@@ -197,16 +189,9 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-<<<<<<< HEAD
-    android.hardware.wifi@1.0-service \
-    wificond \
-=======
->>>>>>> parent of 888b058... g3: Build HIDL Hals
-=======
->>>>>>> parent of 888b058... g3: Build HIDL Hals
     hostapd \
     hostapd_default.conf \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
+
