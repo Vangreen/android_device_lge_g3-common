@@ -33,7 +33,6 @@
 #include "hardware/camera.h"
 #include <camera/Camera.h>
 #include <camera/CameraParameters.h>
-#include <camera/CameraParametersExtra.h>
 
 static const char AUDIO_ZOOM_OFF[] = "audio-zoom";
 static const char AUDIO_ZOOM_ON[] = "audio-zoom";
